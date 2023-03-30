@@ -8,7 +8,7 @@
     color: variaveis.$corTextoPrincipal;
 }
 
-@mixin title($fontSize: 20px) {
+@mixin title($fontSize: 40px) {
     @include text($fontSize);
     color: variaveis.$corTextoSecundario;
 }
